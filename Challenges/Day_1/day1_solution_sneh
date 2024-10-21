@@ -1,0 +1,39 @@
+ubuntu@ip-172-31-5-211:~$ bash -v day1.sh
+#!/bin/bash
+
+
+#task 1: Comments
+: <<'mlc'
+
+multiple line comment demo
+this is day 1 Bash scripting challenge
+
+mlc
+
+#task 2 : Echo
+
+echo "welcome to Day 1 bash scripting challenge"
+welcome to Day 1 bash scripting challenge
+
+#task 3 and 4: Declaring Variables ad using them
+i1=20
+i2=30
+sum=$((i1 + i2))
+echo "The sum of $i1 and $i2 is $sum"
+The sum of 20 and 30 is 50
+
+#task 5: built-in variables
+
+echo "Script Name: $0"
+Script Name: day1.sh
+echo "number of arguments passed: $#"
+number of arguments passed: 0
+echo "current working directory: $PWD"
+current working directory: /home/ubuntu
+
+#task 6: Wildcards
+#
+#echo "list all .txt files in the current directory"
+
+ls *.txt
+test1.txt  test2.txt
