@@ -1,4 +1,4 @@
-ubuntu@ip-172-31-5-211:~$ bash -v day1.sh
+ubuntu@ip-:~$ bash -v day1.sh
 #!/bin/bash
 
 
